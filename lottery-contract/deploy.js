@@ -3,8 +3,8 @@ const Web3  = require('Web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'hour luggage section bunker unhappy license ten sun syrup bundle bunker select',
-    'https://rinkeby.infura.io/v3/fb6aafed519a44a29c1dc166c58daf32'
+    // 'your mnemonic phrase',
+    // 'https://rinkeby.infura.io/v3/[wallet-address]'
 );
 
 const web3 = new Web3(provider);
